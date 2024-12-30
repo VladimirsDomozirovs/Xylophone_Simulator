@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="xylophone-background">
+    <div class="xylophone-container">
+        <h1 style= "font-size:50px; font-family: 'Bauhaus 93'; -webkit-text-stroke: 0.1px #fb8815;">&#127900; Play Your Virtual Xylophone &#127901;</h1>
+        <div class="xylophone">
+            <!-- Xylophone bars -->
+            <button style= "font-size:40px; font-family: 'Bauhaus 93'; background-color: #c22400; -webkit-text-stroke: 1px #7e3c1b;" class="bar" "background-color: #FF6347;" onclick="playXylophoneSound(261.63)">C</button>
+            <button style= "font-size:40px; font-family: 'Bauhaus 93'; background-color: #c27400; -webkit-text-stroke: 1px #7e3c1b;" class="bar"  onclick="playXylophoneSound(293.66)">D</button>
+            <button style= "font-size:40px; font-family: 'Bauhaus 93'; background-color: #c2bb00; -webkit-text-stroke: 1px #7e3c1b;" class="bar"  onclick="playXylophoneSound(329.63)">E</button>
+            <button style= "font-size:40px; font-family: 'Bauhaus 93'; background-color: #54c200; -webkit-text-stroke: 1px #7e3c1b;" class="bar"  onclick="playXylophoneSound(349.23)">F</button>
+            <button style= "font-size:40px; font-family: 'Bauhaus 93'; background-color: #00c2b5; -webkit-text-stroke: 1px #7e3c1b;" class="bar"  onclick="playXylophoneSound(392.00)">G</button>
+            <button style= "font-size:40px; font-family: 'Bauhaus 93'; background-color: #5400c2; -webkit-text-stroke: 1px #7e3c1b;" class="bar"  onclick="playXylophoneSound(440.00)">A</button>
+            <button style= "font-size:40px; font-family: 'Bauhaus 93'; background-color: #8400c2; -webkit-text-stroke: 1px #7e3c1b;" class="bar"  onclick="playXylophoneSound(493.88)">B</button>
+            <button style= "font-size:40px; font-family: 'Bauhaus 93'; background-color: #c200bb; -webkit-text-stroke: 1px #7e3c1b;" class="bar"  onclick="playXylophoneSound(523.25)">C</button>
+        </div>
+        <button style="-webkit-text-stroke: 1px hsl(66, 67%, 54%);" class="back-button" onclick="window.location.href='index.html'">Back</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

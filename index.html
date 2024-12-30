@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xylophone Simulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="intro">
+        <div style="-webkit-text-stroke: 0.1px #fb8815;" class="circular-banner">
+            <h1>Welcome to the Xylophone Simulator</h1>
+        </div>
+        <button style="-webkit-text-stroke: 1px hsl(66, 67%, 54%);" onclick="window.location.href='xylophone.html'">Start</button>
+        <button style="-webkit-text-stroke: 1px hsl(66, 67%, 54%);" onclick="openHelp()">Help</button>
+    </div>
+
+    <!-- Help Modal -->
+    <div id="helpModal" class="modal">
+        <div class="modal-content">
+            <span class="close" style="-webkit-text-stroke: 0.1px #fb8815;" onclick="closeHelp()">&times; </span>
+            <p style="-webkit-text-stroke: 1px #7e3c1b;">Welcome to the Xylophone Simulator! Click "Start" to play a virtual xylophone. Each bar produces a sound corresponding to a musical note. Enjoy the music!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
